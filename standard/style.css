@@ -1,0 +1,208 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+/*@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');*/
+/*End-Imoprts*/
+
+
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+/*li,ul{margin: 0; padding: 0;}*/
+::selection{background:#b2dd4c;color:#fff}
+::-moz-selection{background:#b2dd4c;color:#fff}
+/*Navbar*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0, 0, 0, 0.6)!important;
+}
+.navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand img{
+    height: 5.25rem;
+}
+.navbar-vav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: aquamarine;
+}
+/*End navbar*/
+/*Landing page*/
+.landing{
+    //height: 100%;
+    background: url('img/bg1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top:38%;
+    z-index: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem #000;
+    padding-bottom: 1rem;
+}
+.caption h3{
+    font-size: 2rem;
+    text-shadow: .1rem .1rem .5rem #000;
+    padding-bottom: 1.6rem;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+.pro-brief{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 2.5vw), 50% 100%, 0 calc(100% - 2.5vw));
+    background-color: aquamarine;
+    padding: 20px 15px 35px 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    
+}
+.pro-brief h1{
+    text-align: center;
+}
+.pro-brief p{
+    text-align: justify;
+}
+.pro-extra{
+    
+}
+
+/*End Landing-page*/
+
+/*Modules*/
+#modules{
+    display: block;
+}
+.moudles-bg-inner{
+    background: url('img/bg2.JPG') no-repeat center center fixed;
+    z-index: -2;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.admin-mod,
+.parent-mod,
+.teach-mod,
+.fin-mod,
+.sch-mod{
+    height: 100%;
+    background: rgba(0,0,0,0.85);
+}
+.modules h3{
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+.modules ul{
+    color: #fff;
+    /padding: 0;
+}
+.modules li{list-style: none;margin: 0;padding: 0;}
+/*USPs*/
+.usp{background-color: #fff;}
+.usp-right-clip{
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 9% 100%);
+    background-color: aqua;
+}
+/*End Usps*/
+/*usage-highlights*/
+.usage-highlights{}
+.usage-highlights h3{text-align: center;}
+.usage-highlights .jumbotron{border-radius: 0;margin-bottom: 0;}
+/*End usage-highlights*/
+/*clients*/
+.clients{background-color: #b0f6be; padding: 15px;}
+.clnt-flat-bg .row{padding: 20px;}
+.clnt-flat-bg img{width: 100%;height: 100%;padding: 20px;border-radius: 30px;box-shadow: 1px 1px 8px 0px rgba(0,0,0,0.3)}
+/*End clients*/
+/*End Modules*/
+/*Pricing*/
+.ppricing{background-color: #fcfcfc}
+.ppricing ul{margin: 0; padding: 0;}
+.ppricing li{list-style: none;padding: 15px;}
+.pricing-title{padding: 10px; text-align: center;font-weight: 700;letter-spacing: .2rem; border-top: 5px solid #358;border-top-left-radius: 5px;border-top-right-radius: 5px; }
+.pricing-price{height: 150px;padding: 20px;color: #fff;text-align: center;}
+.ppricing li:nth-child(1){padding: 10px;background-color: rgba(0,0,0,.05)}
+.ppricing li:nth-child(even){background-color: rgba(0,0,0,.2)}
+.ppricing li:nth-child(2){background-color: darkcyan;}
+.ppricing li:nth-last-child(1){background-color: #333;padding: 0;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.prc-sgn-btn a{padding: 10px;color: #fff; text-align: center;display: block;}
+/*End Pricing*/
+/*Demos*/
+.pdemos{background-color: #fff;margin: 0 auto;}
+.pdemos img{background-color: rgba(0,0,0,.2); height:100%; width: 100%;}
+.pdemos-inner .col-md-4{padding: 0;}
+.pdemos-inner .img-cov{color: #fff;padding: 15px;text-align: center;background-color: rgba(0,0,0,.5);position: absolute;height: 50%; width: 100%;}
+.pdemos-inner .img-cov-2{color: #fff; padding:35% 15px 15px 15px;text-align: center;background-color: rgba(0,0,0,.5);position: absolute;height: 100%; width: 100%;}
+.img-cov div,
+.img-cov-2 div{width: 40%;margin: 0 auto;border-bottom: 3px solid aqua;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.img-cov h3,
+.img-cov p{padding-top: 20px;letter-spacing: .1rem;}
+.pdemos-inner-wraper:hover > .img-cov,
+.pdemos-inner-wraper:hover > .img-cov-2{display: none;}
+.img-cov-demolink{display: none;background-color: rgba(0, 107, 107, 0.89);position: absolute;height: 50%; width: 100%;}
+.img-cov-demolink-2{display: none;background-color: rgba(0, 107, 107, 0.89);position: absolute;height: 100%; width: 100%;}
+.pdemos-inner-wraper:hover > .img-cov-demolink,
+.pdemos-inner-wraper:hover > .img-cov-demolink-2{display: block;} 
+.img-cov-demolink a,
+.img-cov-demolink-2 a{padding: 10px; position: absolute;top: 50%; color: #fff;text-align: center;margin: auto;width: 100%;transform: translateY(-50%);}
+/*End Demos*/
+/*Contacts*/
+.pcontacts{background-color: #fff;}
+.pcontact-form-title h5{text-align: center;padding-top: 16px;}
+.pcontact-form{/padding-top: 50px;}
+.pcontact-form-label{padding-left: 15px;}
+.pcontact-form-label:before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background-color: #b2dd4c;
+    left: 5px;
+    top: 22px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.pcontact-info h5{
+    text-align: center;
+    margin: 0 auto;
+}
+.paddress ul{margin: 0; padding: 0;}
+.paddress li{list-style: none;font-size: 14px;padding-left: 15px;}
+
+.paddress .fa-map-marker{position: absolute;top:46px;;left:12px;}
+.paddress .fa-envelope{position: absolute;top:68px;;left:11px;}
+.paddress .fa-phone{position: absolute;top:90px;;left:12px;}
+
+/*End Contacts*/
