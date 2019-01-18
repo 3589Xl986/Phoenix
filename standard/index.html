@@ -12,34 +12,37 @@
 	<link rel="stylesheet" href="css/fixed.css">
     <!--	Font Awesome-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--    -->
+<!--    	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>-->
+
 
 	<title>Phoenix School</title>
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
 
 <!--HOME-->
-<div id="home">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#"><img src="img/l1.png" alt="Phoenix"></a>
+<div id="section-home">
+    <nav class="navbar navbar-expand-lg navbar-light nav-light fixed-top">
+        <a class="navbar-brand" href="#"><img src="img/l.png" alt="Phoenix"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section-home">HOME <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#modules">MODULES</a>
+                    <a class="nav-link" href="#section-modules">MODULES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#pricing">PRICING</a>
+                    <a class="nav-link" href="#section-pricing">PRICING</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#demos">DEMOS</a>
+                    <a class="nav-link" href="#section-demos">DEMOS</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contacts">CONTACT</a>
+                    <a class="nav-link" href="#section-contacts">CONTACT</a>
                 </li>
             </ul><!-- End .navbar-nav -->
         </div><!-- End .collapse navbar-collapse -->
@@ -56,9 +59,9 @@
         <a class="btn btn-outline-light btn-lg" href="#modules">See Our Modules</a>
     </div>
     <!--END-Home-main-screen-->
-    <div class="container-fluid">
+    <div class="container-fluid about-product">
         <div class="pro-brief">
-            <h1>Phoeinx School Management Solution</h1>
+            <h2>Phoeinx School Management Solution</h2>
             <p>
 Phoenix is an in-house school management solution, developed leveraging our extensive knowledge in Education and School Operations.
 Based on feedback from our early adopters and the rapidly evolving education landscape, Phoenix has been developed to ensure your needs are met today and well into the future.
@@ -67,18 +70,38 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
 
             </p>
         </div>
-        <div class="pro-extra"></div>
+        <div class="pro-extra">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Why Choose Phoenix School Management</h3>
+                    <ul>
+                        <li>Easy Payments</li>
+                        <li>More Flexibility</li>
+                    </ul>
+                    <ul>
+                        <li>WorkCover Modules</li>
+                        <li>Customer Hospitality</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <video controls>
+                        <source src="video/vd.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <!--END-HOME-->
 <!--MODULES-->
-<div id="modules" class="offset">
+<div id="section-modules" class="offset">
     <div class="modules">
         <div class="container">
+            <h2>Sea Features Of Our Modules</h2>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="admin-mod">
-                        <h3>Administrators Module</h3>
+                        <h4>Administrators Module</h4>
                         <ul>
                             <li>Student enrollment</li>
                             <li>Attendance</li>
@@ -94,7 +117,7 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
                 </div>
                 <div class="col-lg-6">
                     <div class="parent-mod">
-                        <h3>Parents Module</h3>
+                        <h4>Parents Module</h4>
                         <ul>
                             <li>Grades</li>
                             <li>Attendance</li>
@@ -110,7 +133,7 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
             <div class="row">
                 <div class="col-lg-4">
                     <div class="teach-mod">
-                        <h3>Teachers Module</h3>
+                        <h4>Teachers Module</h4>
                         <ul>
                             <li>Easy entry options</li>
                             <li>Online attendance and grades</li>
@@ -123,7 +146,7 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
                 </div>
                 <div class="col-lg-4">
                     <div class="fin-mod">
-                        <h3>Financial Manager Module</h3>
+                        <h4>Financial Manager Module</h4>
                         <ul>
                             <li>Complete Fees management</li>
                             <li>Finance</li>
@@ -134,7 +157,7 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
                 </div>
                 <div class="col-lg-4">
                     <div class="sch-mod">
-                        <h3>School Operations Module</h3>
+                        <h4>School Operations Module</h4>
                         <ul>
                             <li>HR</li>
                             <li>Document tracking</li>
@@ -153,17 +176,25 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
     <div class="usp">
         <div class="row">
             <div class="col-lg-5">
-                <h3>Unique Selling Propositon</h3>
-                <p>Phoenix is an in-house school management solution, developed leveraging our extensive knowledge in Education and School Operations. Based on feedback from our early adopters and the rapidly evolving education landscape, Phoenix has been developed to ensure your needs are met today and well into the future. Simple but diversified solution that adapts to multiple curricula, with user based access logins for multiple roles and responsibilities. Apart from catering to Academics, Phoenix also caters to other departmental functions like HR, Finance and school operations. It also provides the ability to manage transport service.</p>
+                <h2>We have lots of unique features which make you feel like finally you got the right tools and resources.</h2>
             </div>
             <div class="col-lg-7 usp-right-clip">
-                <h3>Features</h3>
+                <div class="row">
+                    <ul>
+                        <li>Bulk Messaging</li>
+                        <li>Report Generation</li>
+                    </ul>
+                    <ul>
+                        <li>Grade Analysis</li>
+                        <li>Catering</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div><!--End .usp-->
     <div class="usage-highlights">
         <div class="jumbotron">
-            <h3>Usage Highlights</h3>
+            <h2>Usage Highlights</h2>
             <div class="row">
                 <div class="col-lg-4">
                     <ul>
@@ -198,48 +229,84 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
     </div><!--End .usage-highlights-->
 <div class="clients">
    <div class="container">
-    <div class="col-12 text-center"><h3>What Our Client Say</h3></div>
-    <div class="row clnt-flat-bg">
+    <div class="col-12 text-center"><h2>What Our Client Say</h2></div>
+    <div class="row clnt-prfl-bg">
         <div class="col-md-3">
             <div class="row">
                 <img src="img/p1.jpg" alt="">
+                <cite>
+                    <div>&#8212Joseph </div>
+                    <div>Principal</div>
+                </cite>
             </div>
-            <div class="row">
+            <div class="row blockquote">
                 <blockquote>
-                    <i class="fas fa-quote-left"></i>
-                    para
+                    <h6>The Best One</h6>
                     <hr class="clients-hr">
-                    <cite>&#8212; Name, Profession</cite>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
                 </blockquote>
             </div>
         </div>
         <div class="col-md-3">
             <div class="row">
                 <img src="img/p3.jpg" alt="">
+                <cite>
+                    <div>&#8212Kate </div>
+                    <div>Teacher</div>
+                </cite>
             </div>
-            <div class="row"></div>
+            <div class="row blockquote">
+                <blockquote>
+                    <h6>The Best One</h6>
+                    <hr class="clients-hr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </blockquote>
+            </div>
         </div>
         <div class="col-md-3">
             <div class="row">
                 <img src="img/p2.jpg" alt="">
+                <cite>
+                    <div>&#8212Alexander </div>
+                    <div>Financial Manager</div>
+                </cite>
             </div>
-            <div class="row"></div>
+            <div class="row blockquote">
+                <blockquote>
+                    <h6>The Best One</h6>
+                    <hr class="clients-hr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </blockquote>
+            </div>
         </div>
         <div class="col-md-3">
             <div class="row">
                 <img src="img/p4.jpg" alt="">
+                <cite>
+                    <div>&#8212Kathrin </div>
+                    <div>Parent</div>
+                </cite>
             </div>
-            <div class="row"></div>
+            <div class="row blockquote">
+                <blockquote>
+                    <h6>The Best One</h6>
+                    <hr class="clients-hr">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                </blockquote>
+            </div>
         </div>
     </div>
+    </div>
+    <div class="clients-bg">
+        <div class="fixed clients-bg-inner"></div>
     </div>
 </div><!--End .clients-->
 </div><!--End #modules .offset-->
 <!--END-MODULES-->
 <!--PRICING-->
-<div id="pricing" class="offset ppricing">
+<div id="section-pricing" class="offset ppricing">
     <div class="container">
-    <div class="col-12 text-center"><h3>Pricing</h3></div>
+    <div class="col-12 text-center"><h2>Pricing</h2></div>
     <div class="row">
         <div class="col-md-4">
            <ul>
@@ -282,8 +349,8 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
 </div><!--End .offset ppricing-->
 <!--END-PRICING-->
 <!--DEMOS-->
-<div id="demos" class="offset pdemos">
-    <div class="row"><div class="col-12 text-center"><h3>See The Preview Of Our Demo Sites</h3></div></div>
+<div id="section-demos" class="offset pdemos">
+    <div class="row"><div class="col-12 text-center"><h2>See The Preview Of Our Demo Sites</h2></div></div>
     <div class="row pdemos-inner">
         <div class="col-md-4">
             <div class="row pdemos-inner-wraper">
@@ -348,7 +415,7 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
 </div>
 <!--END-DEMOS-->
 <!--CONTACTS-->
-<div id="contacts" class="offset pcontacts">
+<div id="section-contacts" class="offset pcontacts">
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -515,9 +582,35 @@ Apart from catering to Academics, Phoenix also caters to other departmental func
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<script>
+//$(window).on('scroll', function(){
+//    if ($(window).scrollTop()){
+//        $('.navbar-brand img').addClass('sml-logo');
+//    }
+//    else {
+//        $('.navbar-brand img').removeClass('sml-logo');
+//    }
+//})
+
+$(window).on('scroll', function(){
+    if ($(window).scrollTop()){
+        $('.navbar').addClass('bg-light');
+    }
+    else {
+        $('.navbar').removeClass('bg-light');
+    }
+})
+</script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<!--<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>-->
+	<script src="script.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/15.2.0/smooth-scroll.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#section-"]');    
+</script>
+<!--	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>-->
 </body>
 </html>
