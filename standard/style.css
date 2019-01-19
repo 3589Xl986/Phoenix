@@ -1,7 +1,16 @@
+
 /*Imports*/
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 /*@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');*/
 /*End-Imoprts*/
+.def-cols{
+    color: #96D701;
+    color: #024436;
+    color: #005D62;
+    color: #8EB8EA;
+    color: #F5E85B;
+}
+
 
 
 body{
@@ -88,6 +97,22 @@ body{
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
 }
+.phome-scn-des .btn-outline-light{
+    color: #c7ffec;
+    background-color: #08b77c;
+    background-image: none;
+    border-color: #08b77c;
+}
+.phome-scn-des .btn-outline-light:hover{
+    color: #347d65;
+    background-color: #21ffb4;
+    border-color: #21ffb4;
+}
+.phome-scn-des .btn-outline-light:not(:disabled):not(.disabled).active, .phome-scn-des .btn-outline-light:not(:disabled):not(.disabled):active, .show>.btn-outline-light.dropdown-toggle{
+    color: #212529;
+    background-color: #47fbbe;
+    border-color: #47fbbe;
+}
 .about-product{
     background-color: #fff;
 }
@@ -105,18 +130,24 @@ body{
 }
 .pro-brief p{
     text-align: justify;
+    padding: 5px 30px;
 }
+.pro-extra{padding-top: 20px;padding-bottom: 30px;text-align: center;}
 .pro-extra h3{text-align: center;}
 .pro-extra ul{float: left;width: 48%;padding: 10px;}
 .pro-extra li{list-style: none;}
 .pro-extra video{width: 100%;}
+.pro-extra img{
+    height: 70px;display: block;border: 4px solid #356624;border-radius: 50%;margin: 0 auto;padding: 10px;
+}
+
 /*End Landing-page*/
 
 /*Modules*/
 #modules{
     display: block;
 }
-.modules{background-color: #f1f7f0;}
+.modules{background-color: #f1f7f0;padding-bottom:55px;}
 .admin-mod,
 .parent-mod,
 .teach-mod,
@@ -147,9 +178,12 @@ body{
     background-color: aqua;
 }
 .usp h2{padding: 20px 15px 20px 30px;}
-.usp-right-clip .row{padding-left: 70px;}
+.usp-right-clip .row{padding-top: 45px; padding-left: 70px;}
 .usp-right-clip ul{float: left;padding: 15px;width: 47%;}
 .usp-right-clip li{list-style: none;}
+.usp-right-clip img{
+    height: 70px;display: block;border: 4px solid #356624;border-radius: 50%;margin: 0 auto;padding: 10px;
+}
 /*End Usps*/
 /*usage-highlights*/
 .usage-highlights{}
